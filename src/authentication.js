@@ -56,11 +56,6 @@ export function SignIn(props) {
             onChange={e => {
               setEmail(e.target.value);
             }}
-            onKeyPress={e => {
-              if (e.key === "Enter") {
-                handleSignIn();
-              }
-            }}
           />
           <TextField
             placeholder={"Password"}

@@ -4,7 +4,7 @@ import AddPhoto from "./addPhoto";
 import Button from "@material-ui/core/Button";
 import { db, snapshotToArray } from "./firebase";
 
-export default function addPhotos(props) {
+export default function AddPhotos(props) {
   const [dialog_open, setDialogOpen] = useState();
   const [photos, setPhotos] = useState([]);
 

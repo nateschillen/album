@@ -5,7 +5,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
-export default function addPhotoCard(props) {
+export default function AddPhotoCard(props) {
   return (
     <Card style={{ maxWidth: 345, marginRight: 10, marginTop: 10 }}>
       <CardActionArea>

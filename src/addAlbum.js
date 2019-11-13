@@ -7,7 +7,7 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 import TextField from "@material-ui/core/TextField";
 import { db } from "./firebase";
 
-export default function addAlbum(props) {
+export default function AddAlbum(props) {
   const [name, setName] = useState("");
 
   const handleSaveAlbum = () => {

@@ -10,7 +10,7 @@ import uuid from "node-uuid";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Typography from "@material-ui/core/Typography";
 
-export default function addPhoto(props) {
+export default function AddPhoto(props) {
   const [title, setTitle] = useState("");
   const [file, setFile] = useState(null);
   const [saving, setSaving] = useState(false);

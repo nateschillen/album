@@ -18,10 +18,7 @@ export function App(props) {
   const [drawer_open, setDrawerOpen] = useState(false);
   const [user, setUser] = useState(null);
   const [dialog_open, setDialogOpen] = useState(false);
-  const [albums, setAlbums] = useState([
-    { id: 0, title: "Nature" },
-    { id: 1, title: "Cities" }
-  ]);
+  const [albums, setAlbums] = useState([]);
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(u => {
